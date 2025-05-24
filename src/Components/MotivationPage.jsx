@@ -27,14 +27,16 @@ Font.register({
 // Styles
 const styles = StyleSheet.create({
   page: {
-    padding: 10,
+    // padding: 10,
+    paddingRight:8,
+    paddingLeft:5,
     fontFamily: "Roboto",
     fontSize: 11,
     position: "relative",
     backgroundColor: "#fff",
     flexDirection: "column",
-     paddingTop: 120,    
-  paddingBottom: 100,
+     paddingTop: 110,    
+  paddingBottom: 110,
   },
   logo2: {
     position: "absolute",
@@ -58,13 +60,13 @@ const styles = StyleSheet.create({
     marginTop:"20px"
   },
 mainContent: {
-  marginTop: 120,     
-  marginBottom: 80,   
+  marginTop: 0,     
+  marginBottom: 0,   
   paddingHorizontal: 40,
 },
   maintext: {
     fontSize: 20,
-    textAlign: "center",
+    textAlign: "left",
     lineHeight: 1.5,
   },
   footerText: {
